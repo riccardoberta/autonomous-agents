@@ -2,7 +2,7 @@
 
 [Prof. Riccardo Berta](https://about.me/riccardo.berta)
 
-The course, offered within the context of the Bachelor's Degree in [Electronic Engineering and Information Technology](https://corsi.unige.it/corsi/9273/) at the [University of Genoa](https://unige.it/), focuses on the topic of creating autonomous agents capable of moving and interacting with an unknown environment in order to achieve a specific goal, using reinforcement learning algorithms.
+The course, offered within the context of the Master's Degree in [Electronic Engineering](hthttps://corsi.unige.it/en/corsi/8732) at the [University of Genoa](https://unige.it/), focuses on the topic of creating autonomous agents capable of moving and interacting with an unknown environment in order to achieve a specific goal, using reinforcement learning algorithms.
 
 ## Learning Outcomes
 
