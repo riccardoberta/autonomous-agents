@@ -1,87 +1,50 @@
-# Machine Learning Notebooks
+# Autononous Agents
 
-Notes on Machine Learning
+[Prof. Riccardo Berta](https://about.me/riccardo.berta)
+
+The course, offered within the context of the Bachelor's Degree in [Electronic Engineering and Information Technology](https://corsi.unige.it/corsi/9273/) at the [University of Genoa](https://unige.it/), focuses on the topic of creating autonomous agents capable of moving and interacting with an unknown environment in order to achieve a specific goal, using reinforcement learning algorithms.
+
+## Learning Outcomes
+
+The main purpose of the theoretical part of the course is to introduce the main reinforcement learning algorithms, both tabular-based and function approximation-based. The technical and practical labs aim to provide students with the ability to implement solutions to real-world problems using the algorithms presented in class, using the Python language and Jupyter Notebook tool. The course aims to train professionals who are capable of designing and developing complex software applications using artificial intelligence algorithms.
+Regular attendance and active participation in the proposed educational activities (lectures and technical-practical labs), along with individual study, will allow you to:
+
+- acquire the correct terminology to adequately describe the behavior of an autonomous agent.
+- gain in-depth knowledge of the main reinforcement learning algorithms and be able to critically analyze their differences.
+-be capable of quantitatively evaluating the performance of an autonomous agent in a given problem.
+- formulate a real-world problem in terms of autonomous agents.
+-apply the algorithms to real problems using the Python programming language.
 
 ## Prerequisites
 
-1. [Linear Algebra](00-prerequisites/math/linear-algebra.ipynb)
-2. [Calculus](00-prerequisites/math/calculus.ipynb)
-3. [Statistics and Probability](00-prerequisites/math/statistics-and-probability.ipynb)
-4. [Python](00-prerequisites/tools/python.ipynb)
-5. [NumPy](00-prerequisites/tools/numpy.ipynb)
-6. [Pandas](00-prerequisites/tools/pandas.ipynb)
-7. [MatPlotLib](/00-prerequisites/tools/matplotlib.ipynb)
+To effectively engage with the content of the course, it is necessary to have the following foundational knowledge: programming skills with a high-level programming language, preferably Python (in order to understand and implement the algorithms and exercises covered in the course); and familiarity with the supervised machine learning topic (in order to understand the algorithms based on function approximators).
 
-## Introduction
+## Syllabus
 
-1. [Definition](01-introduction/01-definition.ipynb)
-2. [Regression](01-introduction/02-regression.ipynb)
-3. [Classification](01-introduction/03-classification.ipynb)
+The following list outlines the topics covered in the course:
 
-## Supervised Learning
+1. Introduction to autonomous agents and reinforcement learning
+2. Markov Decision Processes (MDPs)
+3. Dynamic Programming for reinforcement learning
+4. Monte Carlo methods
+5. Temporal Difference (TD) learning
+6. Q-learning and SARSA algorithms
+7. Function approximation in reinforcement learning
+8. Policy gradient methods
+9. Exploration and exploitation strategies
+10. Deep Reinforcement Learning
 
-1. [Linear Models](02-supervised-learning/01-linear-models.ipynb)
-2. [Decision Trees](02-supervised-learning/02-decision-trees.ipynb)
-3. [Ensemble Learning](02-supervised-learning/03-ensemble-learning.ipynb)
-4. [Support Vector Machines](02-supervised-learning/04-support-vector-machines.ipynb)
-5. [Artificial Neural Networks](02-supervised-learning/05-artificial-neural-networks.ipynb)
-6. [Keras](02-supervised-learning/06-keras.ipynb)
+By accessing the GitHub repository, you will have access to the lecture materials, including slides and notebooks, to further explore and study the course topics.
 
-## Unsupervised Learning
+## Recommended reading
 
-1. [Dimensionality Reduction](03-unsupervised-learning/01-dimensionality-reduction.ipynb)
-2. [Clustering](03-unsupervised-learning/02-clustering.ipynb)
+All the slides, source code, and other teaching materials used during the lectures will be available on the Aul@web platform. In general, the lecture notes and materials on Aul@web are sufficient for exam preparation. The following books are suggested as supplementary texts, but students can also use other recent university-level books on Reinforcement Learning:
 
-## Deep Learning
-1. [Deep Neural Networks](04-deep-learning/01-deep-neural-networks.ipynb)
-2. [Tensor Flow](04-deep-learning/02-tensorflow.ipynb)
-3. [Convolutional Neural Networks](04-deep-learning/03-convolutional-neural-networks.ipynb)
+- Miguel Morales, "Grokking Deep Reinforcement Learning," Manning.
+- Richard S. Sutton, Andrew G. Barto, "Reinforcement Learning: An Introduction," MIT Press.
 
-## Reinforcement Learning
+These books can provide additional insights and resources for further study on the topic of Reinforcement Learning.
 
-1. [Markov Decision Process](05-reinforcement-learning/01-markov-decision-process.ipynb)
-2. [Dynamic Programming](05-reinforcement-learning/02-dynamic-programming.ipynb)
-3. [Exploration and Exploitation](05-reinforcement-learning/03-exploration-exploitation.ipynb)
-4. [Policy Evaluation](05-reinforcement-learning/04-policy-evaluation.ipynb)
-5. [Policy Improvement](05-reinforcement-learning/05-policy-improvement.ipynb)
-6. [Learning and Planning](05-reinforcement-learning/06-learning-and-planning.ipynb)
+## Exam description
 
-## Deep Reinforcement Learning
-1. [Function Approximation](06-deep-reinforcement-learning/01-function-approximation.ipynb)
-2. [Deep Q-Network](06-deep-reinforcement-learning/02-deep-q-network.ipynb)
-3. [Improved Deep Q-Network](06-deep-reinforcement-learning/03-improved-deep-q-network.ipynb)
-4. [Policy Based Methods](06-deep-reinforcement-learning/04-policy-based-methods.ipynb)
-5. [Super Mario](06-deep-reinforcement-learning/05-super-mario.ipynb)
-
-## Tiny Machine Learning
-
-1. [Machine Learning on the Edge](08-tiny-machine-learning/01-machine-learning-on-the-edge.ipynb)
-2. [Tensor Flow Lite](08-tiny-machine-learning/02-tensorflow-lite.ipynb)
-3. [Quantization](08-tiny-machine-learning/03-quantization.ipynb)
-
-## References
-The notebooks of this course are based on contents and examples from the following sources: 
-
-### Books
-1. [Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
-2. [Dive into Deep Learning](https://d2l.ai/)
-3. [The Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)
-4. [Data Science from Scratch](https://www.oreilly.com/library/view/data-science-from/9781492041122/)
-5. [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book.html)
-6. [Machine Learning](http://www.cs.cmu.edu/~tom/mlbook.html)
-
-### Courses
-1. [Neural Networks for Machine Learning](https://www.youtube.com/playlist?list=PLoRl3Ht4JOcdU872GhiYWf6jwrk_SNhz9)
-2. [Reinforcement Learning Virtual School](https://rl-vs.github.io/rlvs2021/)
-3. [Convolutional Neural Networks](https://cs231n.github.io/)
-4. [Deep Reinforcement Learning from beginner to expert](https://simoninithomas.github.io/deep-rl-course/)
-5. [Stanford Machine Learning](https://stanford.edu/~shervine/teaching/cs-229/)
-6. [Hardware for Machine Learning](https://inst.eecs.berkeley.edu/~ee290-2/sp21/)
-7. [UCL Course on RL](https://www.davidsilver.uk/teaching/)
-
-### Other sources
-1. [Papers with Code](https://paperswithcode.com/sota)
-2. [Machine learning cheat sheet](https://github.com/soulmachine/machine-learning-cheat-sheet)
-3. [Neural Network Playground](https://playground.tensorflow.org/)
-4. [RLlib](https://github.com/ray-project/ray/tree/master/rllib)
-5. [Stable-Baselines](https://stable-baselines3.readthedocs.io/en/master/)
+The exam consists of a written test covering both the theoretical and practical topics presented in class. Specifically, students are expected to demonstrate a thorough understanding of the functioning of the algorithms underlying the development of autonomous agents and their ability to implement them in the Python programming language. The exam will assess the student's comprehension of the concepts, their ability to apply the algorithms, and their practical implementation skills. Details regarding the exam preparation methods and the level of depth required for each topic will be provided during the course of the lectures. The written exam will assess the actual acquisition of fundamental knowledge on Reinforcement Learning algorithms and their application for building autonomous agents. The presented problems and open-ended questions will allow the evaluation of students' ability to apply their knowledge in practical situations that may arise in real-world scenarios.
