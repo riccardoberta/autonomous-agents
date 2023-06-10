@@ -11,9 +11,9 @@ Regular attendance and active participation in the proposed educational activiti
 
 - acquire the correct terminology to adequately describe the behavior of an autonomous agent.
 - gain in-depth knowledge of the main reinforcement learning algorithms and be able to critically analyze their differences.
--be capable of quantitatively evaluating the performance of an autonomous agent in a given problem.
+- be capable of quantitatively evaluating the performance of an autonomous agent in a given problem.
 - formulate a real-world problem in terms of autonomous agents.
--apply the algorithms to real problems using the Python programming language.
+- apply the algorithms to real problems using the Python programming language.
 
 ## Prerequisites
 
