@@ -36,12 +36,20 @@ The following list outlines the topics covered in the course:
 
 By accessing the GitHub repository, you will have access to the lecture materials, including slides and notebooks, to further explore and study the course topics.
 
+Unfortunately, GitHub's notebook viewer does not render some features, such as interactive plots, it's slower, the math equations are not always displayed correctly, and large notebooks often fail to open. So if you want to play with the code, you need to run the notebooks. You can do that in three ways:
+
+1. **Locally**: you can clone this GitHub repository and start Jupyter Notebook. This is the best option if you want to explore the notebooks in read-write mode, modify them and run the code.
+
+2. **Remotely**: you can click on the [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/riccardoberta/autonomous-agents). This will open the notebook on Google Colab, a free online service that allows you to run Jupyter notebooks (it uses Google Drive as a backend, so you can save your notebooks there). This is the best option if you want to quickly view the notebooks, as Google Colab comes with all the dependencies pre-installed and ready to use. However, you will not be able to modify the notebooks (although you can make a copy and modify that copy in your Google Drive).
+
+3. **Online**: you can click on the <a href="https://nbviewer.jupyter.org/github/riccardoberta/autonomous-agents"><img src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg" alt="Render nbviewer" /></a>. This will open the notebook on nbviewer, a free online service that renders notebooks as static web pages. This is similar to GitHub's notebook viewer, except that it properly renders more features (including interactive plots), it's faster, and it also allows you to download the notebook. However, you will not be able to modify the notebooks or run any code (except for the interactive plots).
+
 ## Recommended reading
 
 All the slides, source code, and other teaching materials used during the lectures will be available on the Aul@web platform. In general, the lecture notes and materials on Aul@web are sufficient for exam preparation. The following books are suggested as supplementary texts, but students can also use other recent university-level books on Reinforcement Learning:
 
-- Miguel Morales, "Grokking Deep Reinforcement Learning," Manning.
-- Richard S. Sutton, Andrew G. Barto, "Reinforcement Learning: An Introduction," MIT Press.
+- Miguel Morales, **"Grokking Deep Reinforcement Learning"**, Manning.
+- Richard S. Sutton, Andrew G. Barto, **"Reinforcement Learning: An Introduction"**, MIT Press.
 
 These books can provide additional insights and resources for further study on the topic of Reinforcement Learning.
 
