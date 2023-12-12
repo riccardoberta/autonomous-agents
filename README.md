@@ -25,14 +25,16 @@ The following list outlines the topics covered in the course:
 
 1. Introduction to autonomous agents and reinforcement learning
 2. Markov Decision Processes (MDPs)
-3. Dynamic Programming for reinforcement learning
-4. Monte Carlo methods
-5. Temporal Difference (TD) learning
-6. Q-learning and SARSA algorithms
-7. Function approximation in reinforcement learning
-8. Policy gradient methods
-9. Exploration and exploitation strategies
-10. Deep Reinforcement Learning
+3. Dynamic Programming
+4. Exploration vs Exploitation
+5. Policy Evaluation
+6. Policy Improvement
+7. Model-based methods
+8. Neural-fitted Q
+9. Value-based methods
+10. Policy-based methods
+11. Actor-Critic methods
+12. Advanced algorithms
 
 By accessing the GitHub repository, you will have access to the lecture materials, including slides and notebooks, to further explore and study the course topics.
 
@@ -52,6 +54,47 @@ All the slides, source code, and other teaching materials used during the lectur
 - Richard S. Sutton, Andrew G. Barto, **"Reinforcement Learning: An Introduction"**, MIT Press.
 
 These books can provide additional insights and resources for further study on the topic of Reinforcement Learning.
+
+## Tools
+
+This list provides link to useful tools (libraries with optimized implementation of algorithms, environments collections, etc.) that can be useful in learning the topics:
+
+- [**Farama Foundation**](https://farama.org/) is a non-profit organization that aims to promote the development of artificial intelligence and robotics.
+- [**Gymnasium**](https://gymnasium.farama.org/) is Python library that provides a collection of environments that share uniform interface, allowing you to write general algorithms. It makes no assumptions about the structure of the agent, and is compatible with any numerical computation library, such as TensorFlow or PyTorch
+- [**Stable Baselines**](https://github.com/DLR-RM/stable-baselines3) is a set of optimized implementations of reinforcement learning algorithms in PyTorch.
+- [**stable-retro**](https://stable-retro.farama.org/) provides a repo of classic video games with Gymnasium compatible interface, supported platforms includes Sega Genesis, Sega 32X, Super Nintendo, Atari 2600 and more.
+
+## Required software packages
+
+In order to run locally the notebooks, you need to install the following software packages:
+
+- [**Conda**](https://docs.conda.io/en/latest/) (>= 23.5) package and environment manager
+
+- A [**Python**](https://www.python.org/) (11.0) environment:
+
+`
+conda create -n reinforcement-learning python=3.11
+conda activate reinforcement-learning
+`
+
+- The [**Gymnasium**](https://gymnasium.farama.org/) (0.29) library:
+
+`
+pip install gymnasium
+pip install 'gymnasium[classic-control]'
+`
+
+- The [**Matplotlib**](https://matplotlib.org/) (3.8) graphing library:
+
+`
+pip install matplotlib  
+`
+
+- The [**TensorFlow**](https://www.tensorflow.org/) (2.5) machine learning library:
+
+`
+pip install tensorflow
+`
 
 ## Exam description
 
