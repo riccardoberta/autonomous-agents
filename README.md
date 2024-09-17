@@ -1,4 +1,4 @@
-# Autononous Agents
+# Reinforcement Learning
 
 [Prof. Riccardo Berta](https://about.me/riccardo.berta)
 
@@ -63,6 +63,8 @@ This list provides link to useful tools (libraries with optimized implementation
 - [**Gymnasium**](https://gymnasium.farama.org/) is Python library that provides a collection of environments that share uniform interface, allowing you to write general algorithms. It makes no assumptions about the structure of the agent, and is compatible with any numerical computation library, such as TensorFlow or PyTorch
 - [**Stable Baselines**](https://github.com/DLR-RM/stable-baselines3) is a set of optimized implementations of reinforcement learning algorithms in PyTorch.
 - [**stable-retro**](https://stable-retro.farama.org/) provides a repo of classic video games with Gymnasium compatible interface, supported platforms includes Sega Genesis, Sega 32X, Super Nintendo, Atari 2600 and more.
+- [**Hugging Face Deep RL Course**](https://huggingface.co/learn/deep-rl-course/unit0/introduction) is an online course on Deep Reinforcement Learning from Hugging Face.
+- [**CleanRL**](https://github.com/vwxyzjn/cleanrl) is a library that provides high-quality single-file implementation with research-friendly features of all the popular reinforcement learning algorithms.
 
 ## Required software packages
 
