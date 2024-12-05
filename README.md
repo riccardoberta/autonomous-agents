@@ -1,4 +1,4 @@
-# Reinforcement Learning
+# Applied Reinforcement Learning
 
 [Prof. Riccardo Berta](https://about.me/riccardo.berta)
 
